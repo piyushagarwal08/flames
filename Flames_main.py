@@ -1,6 +1,5 @@
 import text_to_speech as say
 
-import cheat
 print("This is the Realtion Calculator")
 import sys
 
@@ -15,7 +14,6 @@ while(True):
     
     boy = list(Boy)
     girl = list(Girl)    
-    cheat.safe(Girl,Boy)
 
     try:
         common = [i for i in boy if i in girl]

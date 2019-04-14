@@ -1,6 +1,13 @@
 this is a mini fun project which is based on the game FLAMES
 
+necessary modules other than this repo:
+tkinter
+pyttsx3
+
 in repo:
+to use flames:
+just download the repository and open flame_gui_progress.py file and run it.
+
 Flames_main.py is the file with main code that shows the working.
 flames_gui_progress is a work in progress for GUI structure using tkinter
 text_to_speech.py is used for text to speech conversion.

@@ -4,6 +4,8 @@ import sys
 def flames():  
     Boy = e1.get()
     Girl = e2.get()
+    with open("couple_goals.txt","a") as f_hand:
+        f_hand.write("\n"+Boy+" --> " + Girl)
     ff.Flames(Boy,Girl)
     
     

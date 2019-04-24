@@ -3,7 +3,7 @@ import text_to_speech as say
 import sys
 import cheat
 def Flames(Boy,Girl):
-    flamess = {"friends":"best friends always together","love":"wah wah ram ji...jodi kya banai","affectionate":"ek tarfa pyaar ki ....baat he kuch aur hoti hai,\nits the most beautiful feeling in the world","marriage":"milan abhi aadha, adhura hai...love birds","enemies":"ladai ladai maaf karo... pyari se ek takraar karo","sister":"bhaiya mere rakhi ka bandhan tum nibhana...hehe"}
+    flamess = {"friends":"best friends always together","love":"wah wah ram ji...jodi kya banai","affectionate":"ek tarfa pyaar ki ....baat he kuch aur hoti hai,\nits the most beautiful feeling in the world","marriage":"milan abhi aadha, adhura hai...love birds","enemies":"ladai ladai maaf karo... gandhi ji ko yaad karo","sister":"bhaiya mere rakhi ka bandhan tum nibhana...hehe"}
     flames = ["friends","love","affectionate","marriage","enemies","siblings"]
     Boy = Boy.lower()
     if Boy == '-1':

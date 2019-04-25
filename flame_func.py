@@ -2,6 +2,7 @@ import pyttsx3
 import text_to_speech as say
 import sys
 import cheat
+import pyfiglet
 def Flames(Boy,Girl):
     flamess = {"friends":"best friends always together","love":"wah wah ram ji...jodi kya banai","affectionate":"ek tarfa pyaar ki ....baat he kuch aur hoti hai,\nits the most beautiful feeling in the world","marriage":"milan abhi aadha, adhura hai...love birds","enemies":"ladai ladai maaf karo... gandhi ji ko yaad karo","sister":"bhaiya mere rakhi ka bandhan tum nibhana...hehe"}
     flames = ["friends","love","affectionate","marriage","enemies","siblings"]
@@ -32,7 +33,7 @@ def Flames(Boy,Girl):
             flames = right+left
         else:
             flames = flames[:len(flames)-1]
-    print(f"{Girl} is {flames[0]} with {Boy}")
+    print(pyfiglet.figlet_format(f"{Girl} is {flames[0]} with {Boy}"))
     say.speak(f"{Girl} is {flames[0]} with {Boy}")
     print(flamess[flames[0]])
     say.speak(flamess[flames[0]])

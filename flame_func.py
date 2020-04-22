@@ -9,7 +9,6 @@ def Flames(Boy,Girl):
     if Boy == '-1':
         sys.exit()
     Girl = Girl.lower()
-    cheat.safe(Girl,Boy)
     boy = list(Boy)
     girl = list(Girl)    
 

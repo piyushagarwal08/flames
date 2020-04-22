@@ -1,7 +1,6 @@
 import pyttsx3
 import text_to_speech as say
 import sys
-import cheat
 import pyfiglet
 def Flames(Boy,Girl):
     flamess = {"friends":"best friends always together","love":"wah wah ram ji...jodi kya banai","affectionate":"ek tarfa pyaar ki ....baat he kuch aur hoti hai,\nits the most beautiful feeling in the world","marriage":"milan abhi aadha, adhura hai...love birds","enemies":"ladai ladai maaf karo... gandhi ji ko yaad karo","sister":"bhaiya mere rakhi ka bandhan tum nibhana...hehe"}
